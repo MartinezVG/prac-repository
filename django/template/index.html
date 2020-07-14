@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> Prediccion XGBoost </title>
+
+
+</head>    
+<body>
+
+    
+
+    <h3>Logs </h3>
+    {{a}}
+    <br>
+    <form method="post" enctype="multipart/form-data" action="predictMPG">
+
+ {% csrf_token %} 
+ <div class="col-md-4 col-sm-4"><label for="fname">sbytes:</label> </div> <input  type="text" name="sbytes" value=258><br><br>
+ <div class="col-md-4 col-sm-4"><label for="lname">ct_dst_src_ltm:</label> </div> <input type="text" name="ct_dst_src_ltm" value='1'><br><br>
+ <div class="col-md-4 col-sm-4"><label for="lname">ct_srv_dst:</label> </div> <input type="text" id="lname" name="ct_srv_dst" value=1><br><br>
+ <div class="col-md-4 col-sm-4"><label for="fname">ct_srv_src:</label> </div> <input type="text" id="fname" name="ct_srv_src" value=1><br><br>
+ <div class="col-md-4 col-sm-4"><label for="lname">sload:</label> </div> <input type="text" id="lname" name="sload" value=1><br><br>
+ <div class="col-md-4 col-sm-4"><label for="lname">smean:</label> </div> <input type="text" id="lname" name="smean" value=43><br><br>
+ <div class="col-md-4 col-sm-4"><label for="fname">synack:</label></div>  <input type="text" id="fname" name="synack" value=0><br><br>
+ <br>
+ <input type="submit" value="Submit" ></div>
+
+
+
+</form>
+<br>
+Ataque 1 - Normal 0   
+<br>
+
+<h1> La clasificacion  es {{scoreval}}</h1>
+
+{% if scoreval == 1  %}
+{{senda_mail}}
+
+
+Analyisis = 0 - Backdoor = 1 - DoS = 2 - Exploits = 3 - Fuzzers = 4 - Generic = 5 - Normal = 6 - Reconnaissance = 7 - Shellcode = 8 - Worms = 9
+<h2> El tipo de ataques es {{multival}} </h2>
+
+{% endif %}
+
+<h3> {{temp}} </h3>
+
+
+
+<form method="post" enctype="multipart/form-data" action="viewDatabase">
+
+    {% csrf_token %} 
+
+    <input type="submit" value="Base de datos" ></div>
+    </body>
+</form>
+
+
+<form method="post" enctype="multipart/form-data" action="updateDataBase">
+
+    {% csrf_token %} 
+
+    <input type="submit" value="update" ></div>
+</html>
+
+</form>
