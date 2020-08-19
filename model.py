@@ -12,7 +12,7 @@ my_logger.setLevel(logging.DEBUG)
 handler = graypy.GELFTLSHandler('localhost', 12201)
 my_logger.addHandler(handler)
 
-reloadModel = joblib.load("D:/jupyter/practica/django/djangotut/xgboostmodel.pkl")
+model = joblib.load("D:/jupyter/practica/django/djangotut/xgboostmodel.pkl")
 
 
 snif = sniff(timeout = 5 )
