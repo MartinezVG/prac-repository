@@ -34,9 +34,8 @@ df['dload'] = pd.to_numeric(df['dload'].str.rstrip('*'))
 for i in range(len(df)):
     df2 = df.drop(columns =['port'])
     a = df2.iloc[[i]]
-    #if model.predict(a)[0] == 1:
-        #my_logger.debug('Log {}'.format{df.iloc[[i]]})
-    if reloadModel.predict(a)[0] == 0:
-        print("no es ataque", port)
+    if model.predict(a)[0] == 1:
+        my_logger.debug('Log {}'.format{df.iloc[[i]]})
+
 
     
