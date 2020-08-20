@@ -5,8 +5,8 @@ Instalación y como utilizar modulo monitoring y sensor de el trafico de la Red.
 1.- instalar Npcap https://nmap.org/npcap/windows-10.html, es una libreria para poder analizar archivos pcap, en este caso es para que python con la librearia scapy pueda 
 analizar el trafico de la red y guardarlo como formato pcap.
 
-2.- en caso de utilizar windows instalar la terminal de linux
-  2.1.- Activar el modo desarrollador 
+2.- en caso de utilizar windows instalar la terminal de linux \\
+  2.1.- Activar el modo desarrollador \\
         Settings>Update & Security > For Developers.
         
   2.2.- Habilita Windows Subsystem for Linux (Beta):
