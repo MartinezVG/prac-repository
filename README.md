@@ -6,10 +6,10 @@ Instalación y como utilizar modulo monitoring y sensor de el trafico de la Red.
 analizar el trafico de la red y guardarlo como formato pcap.
 
 2.- en caso de utilizar windows instalar la terminal de linux \\
-  2.1.- Activar el modo desarrollador \\
+ * 2.1.- Activar el modo desarrollador \\
         Settings>Update & Security > For Developers.
         
-  2.2.- Habilita Windows Subsystem for Linux (Beta):
+  * 2.2.- Habilita Windows Subsystem for Linux (Beta):
         Control Panel>Programs> Activar o desactivar  las caracteristicas de windows
         Habilitar subsistema de windows para linux
 
