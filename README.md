@@ -18,12 +18,14 @@ Argus procesa los archivos pcap y genera resumenes del trafico. Se analizan cier
 para ubuntu: sudo apt-get install argus-server argus-client
 
 4.- El modelo fue creado en visual studio code, para ejecutarlo se necesita instalar ciertas librerias con el comando pip en el prompt de python
-''
+
+```
 pip install pandas
 pip install scapy
 pip install graypy
 pip install joblib
 pip install sklearn
-''
+
+```
 5.- Cambiar los directorios de el archivo del modelo y del csv que se creará
 6.- ejecutar script
