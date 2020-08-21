@@ -12,7 +12,7 @@ my_logger.setLevel(logging.DEBUG)
 handler = graypy.GELFTLSHandler('localhost', 12201)
 my_logger.addHandler(handler)
 
-reloadModel = joblib.load("Directiorio donde se descargó/modelbi.pkl")
+model = joblib.load("Directiorio donde se descargó/modelbi.pkl")
 
 
 snif = sniff(timeout = 5 )
