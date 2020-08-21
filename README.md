@@ -19,9 +19,10 @@ Instalación y como utilizar modulo monitoring y sensor de el trafico de la Red.
 
 3.- Instalar Argus, al igual que la base de datos propuesta por moustafa que fue creada analizada por argus.
 Argus procesa los archivos pcap y genera resumenes del trafico. Se analizan ciertos filtros que son aplicados al modelo posteriormente para poder clasificar si es ataque o no.
-para ubuntu: sudo apt-get install argus-server argus-client
 
-para windows con bash activado: 
+Para instalar argus en linux: sudo apt-get install argus-server argus-client
+
+Para windows con bash activado: 
 
         sudo apt-get install build-essential
         sudo apt install flex
