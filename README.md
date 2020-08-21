@@ -100,4 +100,5 @@ Desarrollar un módulo de clasificación de eventos maliciosos entrenados con un
 
 
 Conclusión:
+Las principales competencias adquiridas en el periodo de práctica temprana fueron limpieza y análisis de la base de datos pública, uso de diversas librerías de Python, preprocesado de nuevos datos para la integración del modelo.
 
