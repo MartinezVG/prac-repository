@@ -23,14 +23,15 @@ para ubuntu: sudo apt-get install argus-server argus-client
 
 para windows con bash activado: 
 
-sudo apt-get install build-essential
-sudo apt install flex
-sudo apt install bison
-sudo apt-get update -y
-sudo apt-get install -y libpcap-dev
+        sudo apt-get install build-essential
+        sudo apt install flex
+        sudo apt install bison
+        sudo apt-get update -y
+        sudo apt-get install -y libpcap-dev
 
-argus server
-wget http://qosient.com/argus/dev/argus-3.0.8.2.tar.gz
+
+                argus server
+        wget http://qosient.com/argus/dev/argus-3.0.8.2.tar.gz
 tar zxf /argus-3.0.8.2.tar.gz
 cd argus-3.0.8.2
 sudo ./configure
