@@ -1,0 +1,34 @@
+1.- Objetivo de la practica
+
+Desarrollar un modulo de clasificacion de eventos maliciosos entrenados con un dataset publico para ser integrado en el subproducto de ciberdefensa
+
+
+1.2 .- Objetivos especificos
+
+Crear metodo para clasificar eventos malicios utiizando metodos de machine learning
+Crear Modulo de monitoring
+Crear modulo de sensoring
+ 
+ 
+
+
+1.  .- Materiales
+
+Computador Intel Core i5-6400 con 16GB Ram para correr los diversos programas para llevar a cabo los objetivos, tales como
+Jupyter Notebook
+Visual Studio Code
+Argus y el respectivo ambiente de ubuntu para hacerlo funcionar
+Wireshark
+
+
+1.   .- Procesos y procedimientos
+
+Leer ReadMe. https://github.com/MartinezVG/prac-repository/blob/master/README.md
+
+1.    .- Contenido academico durante la practica profesional
+Implementacion de tecnicas de Data mining para el entendimiento y analisis de la base de datos publica para llevar a cabo el modelo de prediccion de eventos maliciosos.
+Utilizacion de visual studio code con el ambiente de python para la creacion del script que analiza, predice y entrega resultados al graylog
+
+
+Conclusion:
+
