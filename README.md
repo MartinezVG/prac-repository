@@ -93,6 +93,8 @@ C.Crear Módulo de sensoring.
 3.1 Leer ReadMe. https://github.com/MartinezVG/prac-repository/blob/master/README.md
 
 4.    .- Contenido académico durante la practica profesional: descripción de nuevas habilidades
+
+
 Implementación de técnicas de Data mining para el entendimiento y analisis de la base de datos pública para llevar a cabo el modelo de predicción de eventos maliciosos.
 Utilización de visual studio code con el ambiente de Python para la creación del script que analiza, predice y entrega resultados al graylog.
 
