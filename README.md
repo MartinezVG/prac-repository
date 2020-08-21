@@ -1,6 +1,6 @@
 # Practica-repository
 
-# Instalación y utilizacióm modulo monitoring y sensor de el trafico de la Red.
+# Instalación y utilización modulo monitoring y sensor de el trafico de la Red.
 
 1.- En caso de utilizar windows, instalar Npcap https://nmap.org/npcap/windows-10.html, y wincap https://www.winpcap.org/install/default.htm es una libreria para poder analizar archivos pcap, en este caso es para que python con la libreria scapy pueda  analizar el trafico de la red y guardarlo como formato pcap.
 
