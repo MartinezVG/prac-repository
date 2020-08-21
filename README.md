@@ -1,6 +1,6 @@
-# prac-repository
+# Practica-repository
 
-# Instalación y como utilizar modulo monitoring y sensor de el trafico de la Red.
+# Instalación y utilizacióm modulo monitoring y sensor de el trafico de la Red.
 
 1.- En caso de utilizar windows, instalar Npcap https://nmap.org/npcap/windows-10.html, y wincap https://www.winpcap.org/install/default.htm es una libreria para poder analizar archivos pcap, en este caso es para que python con la libreria scapy pueda  analizar el trafico de la red y guardarlo como formato pcap.
 
@@ -63,7 +63,7 @@ pip install sklearn
 6.- ejecutar script
 
 
-# Reporte de Practica
+# Reporte de Práctica
 
 1. Objetivo de la práctica
 
@@ -72,9 +72,9 @@ Desarrollar un módulo de clasificación de eventos maliciosos entrenados con un
 
 1.2. Objetivos específicos
 
-        A.Crear Método para clasificar eventos malicios utiizando métodos de machine learning.
-        B.Crear Módulo de monitoring.
-        C.Crear Módulo de sensoring.
+         A.Crear Método para clasificar eventos malicios utiizando métodos de machine learning.
+         B.Crear Módulo de monitoring.
+         C.Crear Módulo de sensoring.
  
  
 
