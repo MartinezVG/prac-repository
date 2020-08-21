@@ -15,7 +15,7 @@ my_logger.addHandler(handler)
 reloadModel = joblib.load("Directiorio donde se descargó/modelbi.pkl")
 
 
-snif = sniff(timeout = 10 )
+snif = sniff(timeout = 5 )
 wrpcap('snif.pcap', snif)
 
 
@@ -39,5 +39,5 @@ for i in range(len(df)):
     df2 = df.drop(columns =['port'])
     a = df2.iloc[[i]]
     if model.predict(a)[0] == 1:
-        my_logger.debug('Log {}'.format{df.iloc[[i]]})
+        my_logger.debug('Log {}'.format(df.iloc[[i]]))
     
