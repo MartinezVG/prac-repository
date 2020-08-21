@@ -58,4 +58,6 @@ pip install sklearn
 
 ```
 5.- Cambiar los directorios de el archivo del modelo y del csv que se creará en el script
+
+
 6.- ejecutar script
