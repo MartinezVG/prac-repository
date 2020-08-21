@@ -63,9 +63,9 @@ pip install sklearn
 6.- ejecutar script
 
 
+# Reporte de Practica
 
-
-1.- Objetivo de la práctica
+1. Objetivo de la práctica
 
 Desarrollar un módulo de clasificación de eventos maliciosos entrenados con un dataset público para ser integrado en el subproducto de ciberdefensa.
 
