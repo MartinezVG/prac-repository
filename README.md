@@ -21,6 +21,31 @@ Instalación y como utilizar modulo monitoring y sensor de el trafico de la Red.
 Argus procesa los archivos pcap y genera resumenes del trafico. Se analizan ciertos filtros que son aplicados al modelo posteriormente para poder clasificar si es ataque o no.
 para ubuntu: sudo apt-get install argus-server argus-client
 
+para windows con bash activado: 
+
+sudo apt-get install build-essential
+sudo apt install flex
+sudo apt install bison
+sudo apt-get update -y
+sudo apt-get install -y libpcap-dev
+
+argus server
+wget http://qosient.com/argus/dev/argus-3.0.8.2.tar.gz
+tar zxf /argus-3.0.8.2.tar.gz
+cd argus-3.0.8.2
+sudo ./configure
+sudo make
+sudo make install  
+
+argus client
+
+wget http://qosient.com/argus/dev/argus-clients-3.0.8.2.tar.gz
+tar zxf /argus-clients-3.0.8.2.tar.gz
+cd argus-clients-3.0.8.2
+sudo ./configure
+sudo make
+sudo make install  
+
 4.- El modelo fue creado en visual studio code, para ejecutarlo se necesita instalar ciertas librerias con el comando pip en el prompt de python
 
 ```
@@ -31,5 +56,5 @@ pip install joblib
 pip install sklearn
 
 ```
-5.- Cambiar los directorios de el archivo del modelo y del csv que se creará
+5.- Cambiar los directorios de el archivo del modelo y del csv que se creará en el script
 6.- ejecutar script
