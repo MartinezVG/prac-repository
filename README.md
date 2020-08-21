@@ -61,3 +61,41 @@ pip install sklearn
 
 
 6.- ejecutar script
+
+
+
+
+1.- Objetivo de la práctica
+
+Desarrollar un módulo de clasificación de eventos maliciosos entrenados con un dataset público para ser integrado en el subproducto de ciberdefensa.
+
+
+1.2 .- Objetivos específicos
+
+A.Crear Método para clasificar eventos malicios utiizando métodos de machine learning.
+B.Crear Módulo de monitoring.
+C.Crear Módulo de sensoring.
+ 
+ 
+
+
+2.  .- Materiales
+
+2.1 Computador Intel Core i5-6400 con 16GB Ram para correr los diversos programas para llevar a cabo los objetivos, tales como
+2.2 Jupyter Notebook
+2.3 Visual Studio Code
+2.4 Argus y el respectivo ambiente de ubuntu para hacerlo funcionar
+2.5 Wireshark
+
+
+3.   .- Procesos y procedimientos
+
+3.1 Leer ReadMe. https://github.com/MartinezVG/prac-repository/blob/master/README.md
+
+4.    .- Contenido académico durante la practica profesional: descripción de nuevas habilidades
+Implementación de técnicas de Data mining para el entendimiento y analisis de la base de datos pública para llevar a cabo el modelo de predicción de eventos maliciosos.
+Utilización de visual studio code con el ambiente de Python para la creación del script que analiza, predice y entrega resultados al graylog.
+
+
+Conclusión:
+
