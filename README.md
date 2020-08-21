@@ -55,7 +55,7 @@ pip install scapy
 pip install graypy
 pip install joblib
 pip install sklearn
-
+pip install xgboost
 ```
 5.- Cambiar los directorios de el archivo del modelo y del csv que se creará en el script
 
