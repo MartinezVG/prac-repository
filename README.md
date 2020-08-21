@@ -30,22 +30,21 @@ para windows con bash activado:
         sudo apt-get install -y libpcap-dev
 
 
-                argus server
+                ARGUS SERVER
         wget http://qosient.com/argus/dev/argus-3.0.8.2.tar.gz
-tar zxf /argus-3.0.8.2.tar.gz
-cd argus-3.0.8.2
-sudo ./configure
-sudo make
-sudo make install  
+        tar zxf /argus-3.0.8.2.tar.gz
+        cd argus-3.0.8.2
+        sudo ./configure
+        sudo make
+        sudo make install  
 
-argus client
-
-wget http://qosient.com/argus/dev/argus-clients-3.0.8.2.tar.gz
-tar zxf /argus-clients-3.0.8.2.tar.gz
-cd argus-clients-3.0.8.2
-sudo ./configure
-sudo make
-sudo make install  
+                ARGUS CLIENT
+        wget http://qosient.com/argus/dev/argus-clients-3.0.8.2.tar.gz
+        tar zxf /argus-clients-3.0.8.2.tar.gz
+        cd argus-clients-3.0.8.2
+        sudo ./configure
+        sudo make
+        sudo make install  
 
 4.- El modelo fue creado en visual studio code, para ejecutarlo se necesita instalar ciertas librerias con el comando pip en el prompt de python
 
